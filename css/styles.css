@@ -86,3 +86,11 @@ main > .tagline {
     border: 2px solid #000000; /* Optional: Adds a border */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
 }
+
+.tryhackme-badge {
+  display: block;
+  margin: 20px auto; /* centers horizontally and gives some vertical spacing */
+  border: none;      /* ensure no border */
+  max-width: 100%;   /* responsive: prevents overflow on small screens */
+  height: auto;      /* keep aspect ratio */
+}
